@@ -198,7 +198,7 @@ When running the liquidator, you might see the following error codes in the tran
 
 ## Jit Maker
 
-The jit maker bot supplies liquidity to the protocol by participating in jit acutions for perp markets. Before running a jit maker bot, be sure to read the documentation below:
+The jit  maker bot supplies liquidity to the protocol by participating in jit acutions for perp markets. Before running a jit maker bot, be sure to read the documentation below:
 
 Read the docs on jit auctions: https://docs.drift.trade/just-in-time-jit-auctions
 

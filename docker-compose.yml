@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ENDPOINT=https://mainnet.helius-rpc.com/?api-key=61f436f6-d66c-48a8-96ca-fc1aa0614c19
+      - ENV=mainnet-beta
+      - KEEPER_PRIVATE_KEY=0x0000000
+      - DRIFT_ENV=mainnet-beta
+    ports:
+      - "9464:9464"
+      - "9465:9465"
+    command: yarn start
